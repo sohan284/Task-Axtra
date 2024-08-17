@@ -85,21 +85,7 @@ function BannerMD() {
     
       <div className="lg:flex justify-center hidden">
         <div className="mt-[28%] absolute">
-          {/* <div className="text-center" key={1}>
-            <p className="font-semibold italic text-lg">
-              When we talk about Alts, we do not mean a typical <br /> business
-              partner, but rather a team that collaborates with <br /> us daily,
-              always there for us when we encounter difficulties <br /> and
-              celebrate achievements. We see in Alts our best ally <br /> for
-              success!
-            </p>
-            <h2 className="text-3xl uppercase font-semibold mt-10">
-              Maria D. Halk
-            </h2>
-            <h3 className="uppercase text-xs mt-3 text-gray-600">
-              Managing Director
-            </h3>
-          </div> */}
+        
           <div className="text-center" key={2}>
             <p className="font-semibold italic text-lg">
               When we talk about Alts, we do not mean a typical <br /> business
