@@ -15,7 +15,11 @@ function Header() {
   };
   return (
     <div>
-      <div className="px-5 lg:px-16 z-10 bg-white pt-5 h-24 fixed w-full left-0 right-0 top-0">
+      <div
+        className={`px-5 lg:px-16 ${
+          openMenu ? "z-0" : "z-20"
+        } bg-white pt-5 h-24 fixed w-full left-0 right-0 top-0`}
+      >
         <div className="flex justify-between">
           <img
             className="lg:w-[12%] z-10 sm:w-[20%]  w-[50%]"
@@ -47,7 +51,7 @@ function Header() {
         </div>
       </div>
       {openMenu && (
-        <div className="bg-[#181818] h-screen fixed z-20 top-0 w-full grid grid-cols-10">
+        <div className="bg-[#181818] h-screen fixed z-50 top-0 w-full grid grid-cols-10">
           <div className="col-span-2  border-r border-gray-800 hidden lg:block">
             <img className="my-8 pl-10" src={logo2} alt="" />
             <div className="text-white pl-10 pt-8 pb-16  border-t border-gray-800">
@@ -181,7 +185,8 @@ function Header() {
             </div>
           </div>
           <div className="right-10 top-8 absolute lg:hidden flex">
-            <i onClick={()=>setOpenMenu(false)}
+            <i
+              onClick={() => setOpenMenu(false)}
               className="fas fa-times text-2xl  hover:text-[#bebebe] text-white"
               title="Close"
             ></i>
@@ -190,7 +195,8 @@ function Header() {
             <div className="justify-end flex mt-12 mr-10">
               {" "}
               <div className=" bg-[#333333] w-12 h-12 rounded-full text-center flex justify-center flex-col">
-                <i onClick={()=>setOpenMenu(false)}
+                <i
+                  onClick={() => setOpenMenu(false)}
                   className="fas fa-times text-2xl hover:text-[#bebebe] text-white"
                   title="Close"
                 ></i>

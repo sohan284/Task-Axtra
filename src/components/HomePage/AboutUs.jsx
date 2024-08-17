@@ -20,7 +20,7 @@ function AboutUs() {
           <img
             src={aboutUs}
             alt=""
-            className="scrolling-image w-[20%] lg:block hidden"
+            className="scrolling-image w-[70%] lg:block hidden"
             style={{ transform: `translateY(-${scrollY * 0.5}px)` }}
           />
         </div>
