@@ -129,7 +129,7 @@ const WhyChoseUs = () => {
             great together!
           </h1>
           <div>
-            <button className="rounded-full col-span-3 mt-12 font-semibold text-sm border border-gray-800 h-36 w-36 hover:bg-black hover:text-white delay-200">
+            <button className="rounded-full col-span-3 mt-12 font-semibold text-sm border border-gray-800 h-36 w-36 hover:bg-black hover:text-white">
               Contact <br /> With Us
             </button>
           </div>

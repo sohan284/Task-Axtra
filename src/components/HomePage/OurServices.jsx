@@ -32,7 +32,7 @@ function OurServices() {
   }, []);
 
   return (
-    <div className="container mx-auto mb-20">
+    <div className="container mx-auto mb-20 service">
       {currentImage && (
         <div className="cursor-image-container lg:block hidden">
           <img
