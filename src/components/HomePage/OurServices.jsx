@@ -49,14 +49,26 @@ function OurServices() {
       <div className="flex justify-center">
         <div className="">
           <div className="h-36 border-l border-gray-200 lg:ml-36 hidden lg:block"></div>
-          <h4 className="uppercase mt-10 text-lg font-semibold text-gray-600">
+          <h4
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="uppercase mt-10 text-lg font-semibold text-gray-600"
+          >
             Services
           </h4>
-          <h2 className="uppercase text-3xl lg:text-5xl font-bold mt-5">
+          <h2
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            className="uppercase text-3xl lg:text-5xl font-bold mt-5"
+          >
             Our marketing <br /> Services
           </h2>
           <div className="mt-12 pb-24 lg:border-l border-gray-200 lg:pl-10 lg:ml-36 text-[#7c7c7c]">
-            <p className="font-medium text-lg lg:pt-12">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              className="font-medium text-lg lg:pt-12"
+            >
               Consumers today rely heavily on digital means to <br />
               research products. We research a brand of bldend <br />
               engaging with it, according to the meanwhile, 51% <br />
@@ -72,21 +84,29 @@ function OurServices() {
         onMouseLeave={handleMouseLeave}
         className="hover-div grid grid-cols-1 lg:grid-cols-12 border-t mt-10 py-10"
       >
-        <h1 className="col-span-4 lg:ml-24 uppercase text-xl lg:text-3xl font-bold mt-5">
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="col-span-4 lg:ml-24 uppercase text-xl lg:text-3xl font-bold mt-5"
+        >
           Search Engine <br />
           Optimization
         </h1>
         <div className="col-span-5 font-semibold text-[#3f3f3f]">
-          <p>
+          <p data-aos="fade-up" data-aos-duration="1000">
             We help brands stand out through aweful, <br /> elegant visual
             design. Our design mainly philosophy. <br />
           </p>
-          <p className="mt-5">
+          <p data-aos="fade-up" data-aos-duration="1000" className="mt-5">
             + Logo Design <br />
             + Advertisement <br />+ Promotion
           </p>
         </div>
-        <button className="rounded-full col-span-3 mt-12 font-semibold text-sm border border-gray-800 h-36 w-36 hover:bg-black hover:text-white delay-200">
+        <button
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="rounded-full col-span-3 mt-12 font-semibold text-sm border border-gray-800 h-36 w-36 hover:bg-black hover:text-white delay-200"
+        >
           Details
         </button>
       </div>
@@ -96,21 +116,29 @@ function OurServices() {
         onMouseLeave={handleMouseLeave}
         className="hover-div grid grid-cols-1 lg:grid-cols-12 border-t mt-10 py-10"
       >
-        <h1 className="col-span-4 lg:ml-24 uppercase text-xl lg:text-3xl font-bold mt-5">
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="col-span-4 lg:ml-24 uppercase text-xl lg:text-3xl font-bold mt-5"
+        >
           Email <br />
           Marketing
         </h1>
         <div className="col-span-5 font-semibold text-[#3f3f3f]">
-          <p>
+          <p data-aos="fade-up" data-aos-duration="1000">
             We help brands stand out through aweful, <br /> elegant visual
             design. Our design mainly philosophy. <br />
           </p>
-          <p className="mt-5">
+          <p data-aos="fade-up" data-aos-duration="1000" className="mt-5">
             + Logo Design <br />
             + Advertisement <br />+ Promotion
           </p>
         </div>
-        <button className="rounded-full col-span-3 mt-12 font-semibold text-sm border border-gray-800 h-36 w-36 hover:bg-black hover:text-white delay-200">
+        <button
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="rounded-full col-span-3 mt-12 font-semibold text-sm border border-gray-800 h-36 w-36 hover:bg-black hover:text-white delay-200"
+        >
           Details
         </button>
       </div>
@@ -120,21 +148,29 @@ function OurServices() {
         onMouseLeave={handleMouseLeave}
         className="hover-div grid grid-cols-1 lg:grid-cols-12 border-t mt-10 py-10"
       >
-        <h1 className="col-span-4 lg:ml-24 uppercase text-xl lg:text-3xl font-bold mt-5">
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="col-span-4 lg:ml-24 uppercase text-xl lg:text-3xl font-bold mt-5"
+        >
           Content <br />
           Marketing
         </h1>
         <div className="col-span-5 font-semibold text-[#3f3f3f]">
-          <p>
+          <p data-aos="fade-up" data-aos-duration="1000">
             We help brands stand out through aweful, <br /> Our design mainly
             philosophy. <br />
           </p>
-          <p className="mt-5">
+          <p data-aos="fade-up" data-aos-duration="1000" className="mt-5">
             + Logo Design <br />
             + Advertisement <br />+ Promotion
           </p>
         </div>
-        <button className="rounded-full col-span-3 mt-12 font-semibold text-sm border border-gray-800 h-36 w-36 hover:bg-black hover:text-white delay-200">
+        <button
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="rounded-full col-span-3 mt-12 font-semibold text-sm border border-gray-800 h-36 w-36 hover:bg-black hover:text-white delay-200"
+        >
           Details
         </button>
       </div>
@@ -144,21 +180,29 @@ function OurServices() {
         onMouseLeave={handleMouseLeave}
         className="hover-div grid grid-cols-1 lg:grid-cols-12 border-y mt-10 py-10"
       >
-        <h1 className="col-span-4 lg:ml-24 uppercase text-xl lg:text-3xl font-bold mt-5">
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="col-span-4 lg:ml-24 uppercase text-xl lg:text-3xl font-bold mt-5"
+        >
           Social <br />
           Marketing
         </h1>
         <div className="col-span-5 font-semibold text-[#3f3f3f]">
-          <p>
+          <p data-aos="fade-up" data-aos-duration="1000">
             We help brands stand out through aweful, <br /> elegant visual
             design. Our design mainly philosophy. <br />
           </p>
-          <p className="mt-5">
+          <p data-aos="fade-up" data-aos-duration="1000" className="mt-5">
             + Logo Design <br />
             + Advertisement <br />+ Promotion
           </p>
         </div>
-        <button className="rounded-full col-span-3 mt-12 font-semibold text-sm border border-gray-800 h-36 w-36 hover:bg-black hover:text-white delay-200">
+        <button
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="rounded-full col-span-3 mt-12 font-semibold text-sm border border-gray-800 h-36 w-36 hover:bg-black hover:text-white delay-200"
+        >
           Details
         </button>
       </div>

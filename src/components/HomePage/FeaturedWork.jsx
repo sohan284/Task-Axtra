@@ -17,10 +17,12 @@ const FeaturedWork = () => {
 
   return (
     <div className="bg-black px-10">
-      <h1 className="text-white font-bold ml-36 pt-10">
+      <h1  data-aos="fade-up"
+            data-aos-duration="1000" className="text-white font-bold ml-36 pt-10">
         FEATURED <br /> WORK
       </h1>
-      <div className="text-white hidden lg:block font-bold right-10 text-[100px] absolute uppercase">
+      <div  data-aos="fade-up"
+            data-aos-duration="2000" className="text-white hidden lg:block font-bold right-10 text-[100px] absolute uppercase">
         Benjon <br /> <p className="pl-20">website</p> 2012
       </div>
       <div className="carousel-container">

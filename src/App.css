@@ -56,11 +56,9 @@
 /* feature work  */
 .carousel-container {
   max-width: 900px;
-  margin: 0 auto; 
+  margin: 0 auto;
   padding: 40px 0;
-  
 }
-
 
 .scroll-container {
   display: flex;
@@ -82,7 +80,7 @@
 /* lets talk */
 .jumping-text {
   display: inline-block;
-  font-size: 4rem;
+  /* font-size: 4rem; */
   font-weight: semibold;
   color: #333;
 }
@@ -94,23 +92,24 @@
 }
 
 @keyframes jump {
-  0%, 50% {
+  0%,
+  50% {
     transform: translateY(0);
     color: #c9c9c9;
   }
   50% {
-     transform: translateY(5px);
-    color: #00ff15; 
+    transform: translateY(5px);
+    color: #00ff15;
   }
   55% {
-    transform: translateY(-30px); 
+    transform: translateY(-30px);
   }
   85% {
     transform: translateY(10);
     color: #ffe600;
   }
   100% {
-    color: #ff00f2; 
+    color: #ff00f2;
   }
 }
 

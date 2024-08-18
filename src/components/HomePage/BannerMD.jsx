@@ -24,15 +24,51 @@ function BannerMD() {
   return (
     <div className="my-16 container mx-auto relative">
       <div className="hidden lg:block">
-        <img src={md1} alt="" className="ml-[20%] absolute mt-[8%]" />
-        <img src={md2} alt="" className="right-[30%] mt-[10%] absolute" />
-        <img src={md3} alt="" className="absolute left-10 mt-[30%]" />
-        <img src={md5} alt="" className="absolute right-10 mt-[30%]" />
-        <img src={md4} alt="" className="absolute left-10 mt-[43%] w-56" />
-        <img src={md6} alt="" className="absolute right-52 mt-[48%]" />
+        <img
+          data-aos="zoom-in"
+          data-aos-delay="300"
+          src={md1}
+          alt=""
+          className="ml-[20%] absolute mt-[8%]"
+        />
+        <img
+          data-aos="zoom-in"
+          data-aos-delay="300"
+          src={md2}
+          alt=""
+          className="right-[30%] mt-[10%] absolute"
+        />
+        <img
+          data-aos="zoom-in"
+          data-aos-delay="300"
+          src={md3}
+          alt=""
+          className="absolute left-10 mt-[30%]"
+        />
+        <img
+          data-aos="zoom-in"
+          data-aos-delay="300"
+          src={md5}
+          alt=""
+          className="absolute right-10 mt-[30%]"
+        />
+        <img
+          data-aos="zoom-in"
+          data-aos-delay="300"
+          src={md4}
+          alt=""
+          className="absolute left-10 mt-[43%] w-56"
+        />
+        <img
+          data-aos="zoom-in"
+          data-aos-delay="300"
+          src={md6}
+          alt=""
+          className="absolute right-52 mt-[48%]"
+        />
       </div>
-     <div className="lg:hidden ">
-     <Slider
+      <div className="lg:hidden ">
+        <Slider
           ref={(slider) => {
             sliderRef = slider;
           }}
@@ -69,23 +105,22 @@ function BannerMD() {
             </h3>
           </div>
         </Slider>
-          <div style={{ textAlign: "center" }}>
-            <button className="button" onClick={previous}>
-              <h5 className="border rounded-full border-black px-3 h-12 w-12 font-bold mr-2 pt-[15%] text-xl hover:bg-black hover:text-white">
-                <i className="fas fa-arrow-left" title="Previous"></i>
-              </h5>
-            </button>
-            <button className="button" onClick={next}>
-              <h5 className="border rounded-full border-black px-3 h-12 w-12 font-bold pt-[15%] text-xl ml-2 hover:bg-black hover:text-white">
-                <i className="fas fa-arrow-right" title="Next"></i>
-              </h5>
-            </button>
-          </div>
-     </div>
-    
+        <div style={{ textAlign: "center" }}>
+          <button className="button" onClick={previous}>
+            <h5 className="border rounded-full border-black px-3 h-12 w-12 font-bold mr-2 pt-[15%] text-xl hover:bg-black hover:text-white">
+              <i className="fas fa-arrow-left" title="Previous"></i>
+            </h5>
+          </button>
+          <button className="button" onClick={next}>
+            <h5 className="border rounded-full border-black px-3 h-12 w-12 font-bold pt-[15%] text-xl ml-2 hover:bg-black hover:text-white">
+              <i className="fas fa-arrow-right" title="Next"></i>
+            </h5>
+          </button>
+        </div>
+      </div>
+
       <div className="lg:flex justify-center hidden">
         <div className="mt-[28%] absolute">
-        
           <div className="text-center" key={2}>
             <p className="font-semibold italic text-lg">
               When we talk about Alts, we do not mean a typical <br /> business

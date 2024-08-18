@@ -34,8 +34,9 @@ function Footer() {
               </h1>
             </div>
           </div>
-          <div className="lg:col-span-5 col-span-2 mr-8 flex justify-end mt-[15%]">
-            <div className="jumping-text">
+          <div className="lg:col-span-5 col-span-2 mr-8 flex justify-center my-[15%]">
+            <div  data-aos="fade-up"
+            data-aos-duration="1000" className="jumping-text text-4xl lg:text-8xl">
               {text.split("").map((char, index) => (
                 <span key={index} style={{ "--i": index }}>
                   {char}

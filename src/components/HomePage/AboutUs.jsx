@@ -29,12 +29,26 @@ function AboutUs() {
         </div>
         <div className="text-white">
           <div className="h-36 border-l border-gray-800 lg:ml-36 hidden lg:block"></div>
-          <h4 className="uppercase mt-10 text-lg font-semibold">Who We Are</h4>
-          <h2 className="uppercase text-3xl lg:text-5xl font-bold mt-5">
+          <h4
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="uppercase mt-10 text-lg font-semibold"
+          >
+            Who We Are
+          </h4>
+          <h2
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            className="uppercase text-3xl lg:text-5xl font-bold mt-5"
+          >
             We are leading <br /> digital marketing <br /> agency.
           </h2>
           <div className="mt-12 pb-24 lg:border-l border-gray-800 lg:pl-10 lg:ml-36 text-[#7c7c7c]">
-            <p className=" font-medium text-lg lg:pt-12">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              className=" font-medium text-lg lg:pt-12"
+            >
               {" "}
               We’re a team of strategic mdigital marketing <br /> working
               globally with largest brands, We believe <br /> that progress only
@@ -43,7 +57,11 @@ function AboutUs() {
               insights with design, <br /> technological data to produce brand{" "}
               <br /> experiences that customers love our services.
             </p>
-            <button className="rounded-full mt-12 font-semibold text-sm border border-gray-800 h-36 w-36 hover:bg-white hover:text-black delay-200">
+            <button
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              className="rounded-full mt-12 font-semibold text-sm border border-gray-800 h-36 w-36 hover:bg-white hover:text-black delay-200"
+            >
               {" "}
               Explore Us
             </button>

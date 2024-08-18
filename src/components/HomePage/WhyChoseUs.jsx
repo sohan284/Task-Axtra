@@ -57,14 +57,14 @@ const WhyChoseUs = () => {
           backgroundColor: "#fffcf0",
         }}
       >
-        <div className="font-bold text-9xl bg-[#fffcf0] text-center flex justify-center flex-col h-full">
-          <h1>
+        <div className="font-bold text-5xl lg:text-9xl bg-[#fffcf0] text-center flex justify-center flex-col h-full">
+          <h1 data-aos="fade-up" data-aos-duration="1000">
             {" "}
             WHY <br /> CHOOSE US
           </h1>
         </div>
       </div>
-     
+
       <div
         style={{
           flex: "0 0 auto",

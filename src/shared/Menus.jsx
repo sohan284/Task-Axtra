@@ -25,7 +25,30 @@ function Menus(title) {
                 <div className="flex">
                   <div className="bg-black text-white p-12 w-96">
                     <h1 className=" pb-2 text-lg font-semibold">Agency</h1>
-                    <div className="flex flex-col ml-3 text-md font-medium"></div>
+                    <div className="flex flex-col ml-3 text-md font-medium">
+                      {" "}
+                      <NavigationMenuLink className="my-2 hover:tracking-wider hover:ease-in duration-200">
+                        Digital Marketing{" "}
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="my-1 hover:tracking-wider hover:ease-in duration-200">
+                        Digital Studio
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="my-1 hover:tracking-wider hover:ease-in duration-200">
+                        Digital Agency
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="my-1 hover:tracking-wider hover:ease-in duration-200">
+                        Creative Agenty
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="my-1 hover:tracking-wider hover:ease-in duration-200">
+                        Startup Agenty
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="my-1 hover:tracking-wider hover:ease-in duration-200">
+                        Modern Agenty
+                      </NavigationMenuLink>
+                      <NavigationMenuLink className="my-1 hover:tracking-wider hover:ease-in duration-200">
+                        Personal Portfolio
+                      </NavigationMenuLink>
+                    </div>
                   </div>
                   <div className="bg-black text-white p-12 w-96">
                     <h1 className=" pb-2 text-lg font-semibold">Dark Agency</h1>
